@@ -1,0 +1,36 @@
+{
+  "name": "me-todo-app",
+  "version": "1.0.0",
+  "description": "Todo-app using MongoDB & Express.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anupkb/me-todo-app.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "Ejs"
+  ],
+  "author": "ANUP KB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anupkb/me-todo-app/issues"
+  },
+  "homepage": "https://github.com/anupkb/me-todo-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2"
+  }
+}
